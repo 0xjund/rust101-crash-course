@@ -15,15 +15,12 @@
 fn print_num(gt_100: bool) {
     match gt_100 {
         true => println!("Greater than 100"),
-        false => println!("Less than 100"), 
-    }; 
-
+        false => println!("Less than 100"),
+    };
 }
 
-
 fn main() {
-    let num = 120; 
-    let num_check  = num > 100;
-    print_num(num_check); 
-   }
-
+    let num = 120;
+    let num_check = num > 100;
+    print_num(num_check);
+}

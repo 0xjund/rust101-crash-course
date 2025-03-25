@@ -1,7 +1,7 @@
 // Topic: Browsing standard library documentation
 //
 // Requirements:
-// * Print a string in lowercase and uppercase
+// TODO * Print a string in lowercase and uppercase
 //
 // Notes:
 // * Utilize standard library functionality to
@@ -12,4 +12,8 @@
 //   to uppercase and lowercase
 //   * Try searching for: to_uppercase, to_lowercase
 
-fn main() {}
+fn main() {
+    let new_string = "This is a string";
+    println!("uppercase {:?}", new_string.to_uppercase());
+    println!("lowercase {:?}", new_string.to_lowercase());
+}
